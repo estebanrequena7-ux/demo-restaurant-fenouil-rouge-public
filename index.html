@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le Fenouil Rouge – Bistrot lyonnais, Lyon 2e (site de démonstration)</title>
+<meta name="description" content="Démonstration d’un site de restaurant : carte avec prix, horaires et jours de fermeture, réservation, plan d’accès. Restaurant fictif.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://demo-restaurant-fenouil-rouge.atelier-requena.workers.dev/">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F7F0E3">
+<meta property="og:type" content="website"><meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Le Fenouil Rouge – Bistrot lyonnais, Lyon 2e (site de démonstration)"><meta property="og:description" content="Démonstration d’un site de restaurant : carte avec prix, horaires et jours de fermeture, réservation, plan d’accès. Restaurant fictif."><meta property="og:url" content="https://demo-restaurant-fenouil-rouge.atelier-requena.workers.dev/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/Fraunces-italic-400-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/HankenGrotesk-normal-400-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/style.css?v=2">
+<script src="/main.js?v=2" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://demo-restaurant-fenouil-rouge.atelier-requena.workers.dev/#restaurant",
+  "name": "Le Fenouil Rouge",
+  "description": "Bistrot lyonnais moderne : cuisine du marché, carte courte, vins au verre. Restaurant fictif de démonstration.",
+  "url": "https://demo-restaurant-fenouil-rouge.atelier-requena.workers.dev/",
+  "image": "https://demo-restaurant-fenouil-rouge.atelier-requena.workers.dev/images/hero-1000.webp",
+  "telephone": "+33 4 65 71 30 18",
+  "servesCuisine": [
+    "Cuisine lyonnaise",
+    "Bistrot",
+    "Cuisine du marché"
+  ],
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lyon",
+    "postalCode": "69002",
+    "addressCountry": "FR"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "12:00",
+      "closes": "14:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "19:30",
+      "closes": "22:00"
+    }
+  ],
+  "hasMenu": "https://demo-restaurant-fenouil-rouge.atelier-requena.workers.dev/#carte",
+  "acceptsReservations": true
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="top">
+  <div class="wrap top__in">
+    <a class="brand" href="/" aria-label="Le Fenouil Rouge, accueil"><span>Le Fenouil</span> <em>Rouge</em></a>
+    <nav class="nav" aria-label="Navigation principale"><a href="/#carte">La carte</a><a href="/#infos">Horaires</a><a href="/#acces">Accès</a></nav>
+    <a class="btn btn--sm" href="/reservation">Réserver<span class="tag" aria-hidden="true">démo</span><span class="sr">(page de démonstration)</span></a>
+  </div>
+</header>
+<main id="contenu">
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap hero__grid">
+    <div class="hero__txt">
+      <p class="kicker">Bistrot lyonnais · Lyon 2e</p>
+      <h1 id="h1"><span>Le Fenouil</span> <em>Rouge</em></h1>
+      <p class="lede">Une cuisine de marché, des produits de saison, une carte courte qui change chaque semaine. Les prix sont sur la table, et sur cette page.</p>
+      <div class="cta">
+        <a class="btn" href="/reservation">Réserver une table<span class="tag" aria-hidden="true">démo</span><span class="sr">(page de démonstration)</span></a>
+        <a class="link" href="#carte">Voir la carte</a>
+      </div>
+      <p class="status" data-status role="status"><span class="status__dot" aria-hidden="true"></span><span data-status-text>Du mardi au samedi, midi et soir. Fermé dimanche et lundi.</span></p>
+    </div>
+    <figure class="hero__fig">
+      <picture class="medal"><source type="image/avif" srcset="/images/hero-480.avif 480w, /images/hero-800.avif 800w, /images/hero-1000.avif 1000w" sizes="(min-width: 900px) 40vw, 86vw"><source type="image/webp" srcset="/images/hero-480.webp 480w, /images/hero-800.webp 800w, /images/hero-1000.webp 1000w" sizes="(min-width: 900px) 40vw, 86vw"><img src="/images/hero-1000.webp" width="1000" height="1000" alt="Tablée vue du dessus : assiettes de plats à partager, salade, viande et verres de vin" fetchpriority="high" decoding="async"></picture>
+      <p class="stamp" aria-hidden="true">Carte du<br><b>17 octobre</b></p>
+    </figure>
+  </div>
+</section>
+
+<section class="sec sec--carte" id="carte" aria-labelledby="h-carte">
+  <div class="wrap">
+    <header class="sec__head reveal"><p class="kicker">La carte</p><h2 id="h-carte">Courte, de saison, <em>prix affichés.</em></h2><p class="sec__sub">Prix TTC, service compris. Carte mise à jour le 17 octobre 2026. Allergènes : demandez la liste à l’équipe.</p></header>
+    <div class="ardoise reveal" aria-label="Plat du jour">
+      <p class="ardoise__label">À l’ardoise · déjeuner, mardi – vendredi</p>
+      <p class="ardoise__plat"><b>Pot-au-feu de joue de bœuf</b> <span>bouillon, légumes racines, cornichons</span></p>
+      <p class="ardoise__prix">17 €</p>
+    </div>
+    <div class="formules reveal" aria-label="Formules du déjeuner">
+      <h3>Formules du déjeuner <small>mardi – vendredi</small></h3>
+      <ul><li><span>Plat du jour</span><b>17 €</b></li><li><span>Entrée + plat ou plat + dessert</span><b>21 €</b></li><li><span>Entrée + plat + dessert</span><b>26 €</b></li></ul>
+    </div>
+    <div class="carte">
+        <section class="cat reveal" aria-labelledby="c-entres">
+          <h3 id="c-entres">Entrées</h3>
+          <ul>
+            <li><span class="dish"><b>Œuf mollet, velouté de cresson</b><i>lard fumé, mouillettes</i></span><span class="lead" aria-hidden="true"></span><span class="price">11 €</span></li>
+            <li><span class="dish"><b>Salade de fenouil et orange sanguine</b><i>fromage blanc aux herbes, graines</i></span><span class="lead" aria-hidden="true"></span><span class="price">10 €</span></li>
+            <li><span class="dish"><b>Quenelle de brochet gratinée</b><i>sauce Nantua légère</i></span><span class="lead" aria-hidden="true"></span><span class="price">14 €</span></li>
+            <li><span class="dish"><b>Terrine de campagne maison</b><i>pickles, pain grillé</i></span><span class="lead" aria-hidden="true"></span><span class="price">12 €</span></li>
+          </ul>
+        </section>
+        <section class="cat reveal" aria-labelledby="c-plats">
+          <h3 id="c-plats">Plats</h3>
+          <ul>
+            <li><span class="dish"><b>Poulet fermier rôti</b><i>jus corsé, purée de pommes de terre</i></span><span class="lead" aria-hidden="true"></span><span class="price">23 €</span></li>
+            <li><span class="dish"><b>Tablier de sapeur</b><i>sauce gribiche, pommes vapeur</i></span><span class="lead" aria-hidden="true"></span><span class="price">21 €</span></li>
+            <li><span class="dish"><b>Andouillette artisanale</b><i>moutarde à l’ancienne, gratin dauphinois</i></span><span class="lead" aria-hidden="true"></span><span class="price">22 €</span></li>
+            <li><span class="dish"><b>Pavé de cabillaud</b><i>fenouil rôti, beurre blanc</i></span><span class="lead" aria-hidden="true"></span><span class="price">24 €</span></li>
+            <li><span class="dish"><b>Risotto de lentilles et champignons</b><i>plat végétarien, parmesan</i></span><span class="lead" aria-hidden="true"></span><span class="price">19 €</span></li>
+          </ul>
+        </section>
+        <section class="cat reveal" aria-labelledby="c-fromages">
+          <h3 id="c-fromages">Fromages</h3>
+          <ul>
+            <li><span class="dish"><b>Saint-Marcellin rôti</b><i>miel, noix</i></span><span class="lead" aria-hidden="true"></span><span class="price">9 €</span></li>
+            <li><span class="dish"><b>Assiette de fromages affinés</b><i>trois fromages, chutney</i></span><span class="lead" aria-hidden="true"></span><span class="price">12 €</span></li>
+          </ul>
+        </section>
+        <section class="cat reveal" aria-labelledby="c-desserts">
+          <h3 id="c-desserts">Desserts</h3>
+          <ul>
+            <li><span class="dish"><b>Tarte aux pralines roses</b><i>crème fraîche</i></span><span class="lead" aria-hidden="true"></span><span class="price">9 €</span></li>
+            <li><span class="dish"><b>Mousse au chocolat noir</b><i>fleur de sel</i></span><span class="lead" aria-hidden="true"></span><span class="price">8 €</span></li>
+            <li><span class="dish"><b>Poire pochée</b><i>glace vanille, éclats de noisette</i></span><span class="lead" aria-hidden="true"></span><span class="price">9 €</span></li>
+          </ul>
+        </section>
+        <section class="cat reveal" aria-labelledby="c-vinsauverre">
+          <h3 id="c-vinsauverre">Vins au verre</h3>
+          <ul>
+            <li><span class="dish"><b>Beaujolais-Villages</b><i>rouge, 12 cl</i></span><span class="lead" aria-hidden="true"></span><span class="price">5,50 €</span></li>
+            <li><span class="dish"><b>Côtes-du-Rhône</b><i>blanc, 12 cl</i></span><span class="lead" aria-hidden="true"></span><span class="price">6 €</span></li>
+            <li><span class="dish"><b>Crozes-Hermitage</b><i>rouge, 12 cl</i></span><span class="lead" aria-hidden="true"></span><span class="price">7 €</span></li>
+          </ul>
+        </section>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--leaf" id="infos" aria-labelledby="h-hor">
+  <div class="wrap two">
+    <div class="reveal">
+      <header class="sec__head"><p class="kicker">Horaires</p><h2 id="h-hor">Ouvert du mardi au samedi, <em>midi et soir.</em></h2></header>
+      <table class="hours"><caption class="sr">Horaires d’ouverture</caption><tbody>
+        <tr class="off"><th scope="row">Lundi</th><td>Fermé</td></tr>
+        <tr><th scope="row">Mardi – samedi</th><td>12 h – 14 h · 19 h 30 – 22 h</td></tr>
+        <tr class="off"><th scope="row">Dimanche</th><td>Fermé</td></tr>
+      </tbody></table>
+      <ul class="notes">
+        <li><b>Fermé le dimanche et le lundi.</b></li>
+        <li>Fermeture annuelle : du 3 au 24 août (exemple).</li>
+        <li>Ouvert les jours fériés, sauf les 25 décembre et 1er janvier (exemple).</li>
+      </ul>
+    </div>
+    <div class="reveal resa">
+      <header class="sec__head"><p class="kicker">Réservation</p><h2>Une table, <em>en trente secondes.</em></h2></header>
+      <p>Choisissez votre jour, votre heure et le nombre de couverts : la confirmation arrive par e-mail. Pour un groupe de huit personnes ou plus, appelez-nous.</p>
+      <p class="resa__tel">Téléphone : <b>04 65 71 30 18</b> <span>(numéro fictif)</span></p>
+      <a class="btn btn--light" href="/reservation">Réserver une table<span class="tag" aria-hidden="true">démo</span><span class="sr">(page de démonstration)</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="ambiance" aria-labelledby="h-amb">
+  <div class="wrap">
+    <header class="sec__head reveal"><p class="kicker">L’ambiance</p><h2 id="h-amb">Une salle, <em>une cuisine, un comptoir.</em></h2></header>
+    <ul class="gal">
+      <li class="gal__i gal__i--1 reveal"><figure><picture><source type="image/avif" srcset="/images/salle-480.avif 480w, /images/salle-800.avif 800w, /images/salle-1200.avif 1200w" sizes="(min-width: 900px) 30vw, 92vw"><source type="image/webp" srcset="/images/salle-480.webp 480w, /images/salle-800.webp 800w, /images/salle-1200.webp 1200w" sizes="(min-width: 900px) 30vw, 92vw"><img src="/images/salle-1200.webp" width="1200" height="800" alt="Table de bistrot éclairée par une petite lampe, avec verres, assiette et moulin à poivre" loading="lazy" decoding="async"></picture><figcaption>La salle</figcaption></figure></li>
+      <li class="gal__i gal__i--2 reveal"><figure><picture><source type="image/avif" srcset="/images/vin-480.avif 480w, /images/vin-800.avif 800w" sizes="(min-width: 900px) 30vw, 92vw"><source type="image/webp" srcset="/images/vin-480.webp 480w, /images/vin-800.webp 800w" sizes="(min-width: 900px) 30vw, 92vw"><img src="/images/vin-800.webp" width="800" height="1000" alt="Bouteille et verres de vin rouge, charcuterie, fromage et burrata sur une table" loading="lazy" decoding="async"></picture><figcaption>Au comptoir</figcaption></figure></li>
+      <li class="gal__i gal__i--3 reveal"><figure><picture><source type="image/avif" srcset="/images/viande-480.avif 480w, /images/viande-800.avif 800w" sizes="(min-width: 900px) 30vw, 92vw"><source type="image/webp" srcset="/images/viande-480.webp 480w, /images/viande-800.webp 800w" sizes="(min-width: 900px) 30vw, 92vw"><img src="/images/viande-800.webp" width="800" height="1000" alt="Pièce de viande saisie, parsemée d’herbes, dans son jus" loading="lazy" decoding="async"></picture><figcaption>La viande du jour</figcaption></figure></li>
+      <li class="gal__i gal__i--4 reveal"><figure><picture><source type="image/avif" srcset="/images/canard-480.avif 480w, /images/canard-800.avif 800w, /images/canard-1200.avif 1200w" sizes="(min-width: 900px) 30vw, 92vw"><source type="image/webp" srcset="/images/canard-480.webp 480w, /images/canard-800.webp 800w, /images/canard-1200.webp 1200w" sizes="(min-width: 900px) 30vw, 92vw"><img src="/images/canard-1200.webp" width="1200" height="800" alt="Filet de canard dressé avec sauce colorée et petites pousses" loading="lazy" decoding="async"></picture><figcaption>La cuisine du marché</figcaption></figure></li>
+      <li class="gal__i gal__i--5 reveal"><figure><picture><source type="image/avif" srcset="/images/verres-480.avif 480w, /images/verres-800.avif 800w, /images/verres-1200.avif 1200w" sizes="(min-width: 900px) 30vw, 92vw"><source type="image/webp" srcset="/images/verres-480.webp 480w, /images/verres-800.webp 800w, /images/verres-1200.webp 1200w" sizes="(min-width: 900px) 30vw, 92vw"><img src="/images/verres-1200.webp" width="1200" height="800" alt="Verres de vin rosé et blanc à la lueur d’une bougie" loading="lazy" decoding="async"></picture><figcaption>Les vins</figcaption></figure></li>
+    </ul>
+    <p class="note">Photos d’illustration (Unsplash), sans lien avec un restaurant réel.</p>
+  </div>
+</section>
+
+<section class="sec sec--beet" id="avis" aria-labelledby="h-avis">
+  <div class="wrap">
+    <header class="sec__head reveal"><p class="kicker">Avis</p><h2 id="h-avis">Vos avis, <em>à cet endroit.</em></h2></header>
+    <div class="gblock reveal"><b>Vos avis Google s’afficheront ici</b><span>Emplacement réservé : sur un vrai site, les avis Google de l’établissement apparaissent dans cet encadré. Cette démonstration n’affiche aucun avis.</span></div>
+  </div>
+</section>
+
+<section class="sec" id="acces" aria-labelledby="h-acc">
+  <div class="wrap two">
+    <div class="reveal">
+      <header class="sec__head"><p class="kicker">Accès</p><h2 id="h-acc">Lyon 2e, <em>entre Saône et Rhône.</em></h2></header>
+      <p><b>Adresse fictive</b> : aucun commerce réel à cet emplacement.</p>
+      <ul class="notes notes--plain">
+        <li>À pied : environ 5 minutes de la place Bellecour.</li>
+        <li>Métro A et D, station Bellecour ; tramway T1, arrêt Cordeliers.</li>
+        <li>Vélo’v à proximité ; parking public à 8 minutes.</li>
+      </ul>
+      <p class="note">Indications d’illustration pour montrer une page d’accès complète.</p>
+    </div>
+    <div class="reveal">
+      <svg class="plan" viewBox="0 0 400 280" role="img" aria-label="Plan schématique : le restaurant se situe sur la presqu’île, entre la Saône à gauche et le Rhône à droite">
+        <rect width="400" height="280" fill="#EFE5D1"/>
+        <path d="M-10 30 C 70 80, 110 160, 70 290" fill="none" stroke="#C5D2B0" stroke-width="30"/>
+        <path d="M410 10 C 340 90, 350 180, 390 290" fill="none" stroke="#C5D2B0" stroke-width="30"/>
+        <g stroke="#231A17" stroke-opacity=".28" stroke-width="2" fill="none"><path d="M70 160 H350"/><path d="M120 50 L270 250"/><path d="M240 40 V260"/><path d="M140 215 H330"/><path d="M160 100 H340"/></g>
+        <circle cx="240" cy="160" r="9" fill="#7A1632"/><circle cx="240" cy="160" r="17" fill="none" stroke="#7A1632" stroke-width="2"/>
+        <g fill="#231A17" font-family="Hanken Grotesk, sans-serif" font-size="12"><text x="14" y="262">Saône</text><text x="348" y="262">Rhône</text><text x="258" y="156" font-weight="700">Le Fenouil Rouge</text><text x="258" y="218">Bellecour (5 min)</text></g>
+      </svg>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap foot__in">
+    <p class="foot__brand"><span>Le Fenouil</span> <em>Rouge</em></p>
+    <p>Bistrot lyonnais · Lyon 2e<br>Adresse et téléphone fictifs.</p>
+    <nav aria-label="Informations"><a href="/mentions">Mentions</a><a href="/reservation">Réservation (démo)</a></nav>
+  </div>
+</footer>
+<p class="demo-banner" role="note">Site de démonstration – entreprise fictive</p>
+</body>
+</html>
